@@ -1,0 +1,6 @@
+% Input file for ./ch3-files/clique.lp.
+% A (directed) graph, as shown in Figure 3.3
+
+vertex(a; b; c; d; e; f).
+edge(a,b; b,c; c,a; d,f; f,e; e,d; a,d; f,c; b,e).
+#const n=5.

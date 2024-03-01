@@ -1,0 +1,7 @@
+sq(a, 4).
+sq(b, 3).
+sq(c, 2).
+sq(d, 2).
+sq(e, 1).
+#const i=5.
+#const j=8.
