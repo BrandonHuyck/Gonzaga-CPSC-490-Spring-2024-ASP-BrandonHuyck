@@ -1,0 +1,6 @@
+where(a, 1).
+where(b, 1).
+where(c, 2).
+where(d, 2).
+where(e, 2).
+#const k=3.
