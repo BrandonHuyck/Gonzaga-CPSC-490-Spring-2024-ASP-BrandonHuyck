@@ -1,0 +1,14 @@
+
+% Modification of Listing 7.4: Input for the blocks world planning program
+
+block(1..9).
+init( loc(1,2); loc(2,3); loc(3,4); loc(4,table) ).
+init( loc(5,6); loc(6,7); loc(7,table) ).
+init( loc(8,9); loc(9,table) ).
+goal( loc(9,6); loc(6,3); loc(3,table) ).
+#const h=11. % change
+
+action(wait).
+#maximize{T : occurs(wait,T)}.
+
+:- #count{B : holds(loc(B,table),T)} > 3, T = 0..h. % add

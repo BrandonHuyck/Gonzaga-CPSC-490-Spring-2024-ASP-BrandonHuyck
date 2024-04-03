@@ -1,0 +1,8 @@
+
+#const h=1.
+#const n=2.
+init(loc(0, 0); loc(1, 0); loc(2, 1)).
+occurs(move(1), 0).
+
+% init(loc(boat, left); loc(item(a), left); loc(item(b), right)).
+% occurs(move(item(a)), 0).

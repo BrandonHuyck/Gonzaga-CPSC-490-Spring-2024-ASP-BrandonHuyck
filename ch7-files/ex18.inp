@@ -1,0 +1,4 @@
+
+#const h=3.
+init(state(unloaded, alive)).
+occurs(act(load), 0 ; act(shoot), 1 ; act(load), 2).

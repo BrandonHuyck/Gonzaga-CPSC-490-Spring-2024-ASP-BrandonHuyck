@@ -1,0 +1,7 @@
+
+init ( state(loaded, alive) ).
+goal ( state(loaded, dead) ).
+#const h=4.
+
+action(wait).
+#maximize{T : occurs(wait,T)}.

@@ -1,0 +1,9 @@
+
+#const n=3.
+init(brightness(bulb(1..n), 2)).
+goal(brightness(bulb(1..n), 0)).
+#const h=3.
+#const m=2.
+
+action(wait).
+% #maximize{T : occurs(wait,T)}.
