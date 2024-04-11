@@ -4,4 +4,4 @@ goal ( state(loaded, dead) ).
 #const h=4.
 
 action(wait).
-#maximize{T : occurs(wait,T)}.
+#maximize{T : occurs(act(wait),T)}.
